@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+  <meta name="author" content="pat" />
+  <meta name="keywords" content="drifting, pat, OWD" />
+  <meta name="description" content="OWD winter template" />
+  <title>drifting v1.0</title>
+
+  <link rel="stylesheet" type="text/css" href="css/drifting_screen.css" media="screen, tv, projection" />
+  <link rel="stylesheet" type="text/css" href="css/drifting_print.css" media="print" />
+</head>
+
+<body>
+
+<!-- Layout container starts -->
+<div id="layoutBox">
+
+  <!-- HEADER: controls the header layout, images, title and subTitle. -->
+  <div id="headerBox">
+    <div id="headerLeftBox">
+      <span class="title">
+        Yukre
+      </span>
+      <br />
+      <span class="subTitle">
+        this is fire! - elon musk
+      </span>
+    </div>
+    <div id="headerRightBox">
+      &nbsp;
+    </div>
+  </div>
+
+  <!-- MENU: include as many submenus as you want.  Menu groups should begin with a
+       <h1> and then all menu links need to be defined in a <div class="menuGroup">.
+       The <span class="noDisplay"> | </span> after each link only needs to be included
+       if this site will be loaded in a text only browser -->
+  <div id="menuBox">
+    <h1>
+      info
+    </h1>
+    <div class="menuGroup">
+      <a href="#origins" title="how it started"><img src="images/menu_icon.gif" alt="menu item 1" /> origins</a><span class="noDisplay"> | </span>
+      <a href="#template" title="about the template"><img src="images/menu_icon.gif" alt="menu item 2" /> template</a><span class="noDisplay"> | </span>
+      <a href="#next" title="what's next?"><img src="images/menu_icon.gif" alt="menu item 3" /> next</a><span class="noDisplay"> | </span>
+      <a href="http://openwebdesign.org/userinfo.phtml?user=snop" title="OWD profile / contact"><img src="images/menu_icon.gif" alt="menu item 4" /> contact</a><span class="noDisplay"> | </span>
+    </div>
+
+    <h1>
+      sources
+    </h1>
+    <div class="menuGroup">
+      <a href="https://disboard.org/server/1301161991565479956" title="our disboard page"><img src="images/menu_icon.gif" alt="menu item 1" /> disboard.org </a><span class="noDisplay"> | </span>
+      <a href="https://discords.com/Yukre" title="our discords page"><img src="images/menu_icon.gif" alt="menu item 2" /> discords.com</a><span class="noDisplay"> | </span>
+      <a href="https://discord.gg/u6Z2JNbpN6" title="discord"><img src="images/menu_icon.gif" alt="menu item 3" /> our discord</a><span class="noDisplay"> | </span>
+      <a href="https://github.com/oShinyMew" title="my github page"><img src="images/menu_icon.gif" alt="menu item 4" /> my github</a><span class="noDisplay"> | </span>
+      <a href="https://github.com/oShinyMew/Yukre" title="pixel art and flash"><img src="images/menu_icon.gif" alt="menu item 5" /> yukre's github repo</a><span class="noDisplay"> | </span>
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT : to add new headings, include a <h1> and then as many <p> blocks
+       as you'd like.  <h2> will create subheadings. To finish a section, include a
+       <br/> to clearly define it. -->
+  <div id="mainContent">
+    <a name="origins"></a>
+    <h1>what even is Yukre?</h1>
+    <p>
+      Welcome to Yukre's All-in-One iOS Toolkit!
+Dive into Yukre, a iOS toolkit for those looking to explore their iOS further! Yukre is designed to provide all the essential resources for testing and customizing iOS in one cohesive platform. Whether you're a developer, a power user, or simply curious, Yukre is built to support your journey into iOS modifications.
+    <br />
+
+    <a name="template"></a>
+    <h1>what is iOS exploiting?</h1>
+    <p>
+      iOS exploiting is the process of finding and utilizing vulnerabilities within Apple's iOS operating system to gain access to restricted areas of the device. This allows users to bypass system limitations set by Apple, enabling actions like installing unauthorized apps, modifying system settings, and customizing the user experience beyond the default constraints. Exploits are often the foundation of jailbreaking, where specific security loopholes are leveraged to install custom software or run code that iOS normally wouldn’t allow. While iOS exploiting is commonly used by developers and tech enthusiasts for testing and customization, it also plays a critical role in security research by identifying potential risks in the OS that could otherwise be exploited maliciously.
+    <a name="next"></a>
+    <h1>next</h1>
+    <p>
+      Our community is at the core of Yukre’s vision, building a collaborative space for iOS enthusiasts and developers. As Yukre grows, every new member brings fresh insights and opportunities to explore and expand what’s possible on iOS. Join us as we push boundaries, learn, and shape the future of iOS customization together.
+    </p>
+    <br />
+
+    <!-- FOOTER: whatever you want in here - maybe a last updated or breadcrumb? -->
+    <div class="footer">
+     <a> last updated 11/1/2024</a><br />
+      <font size="-1"><font size="-1" face="Arial, Helvetica, sans-serif">
+<!--This theme is free for distriubtion,  so long as  link to openwebdesing.org and florida-villa.com  stay on the theme-->
+please check out <a href="http://www.openwebdesign.org" target="_blank">Open Web Design</a><a href="http://www.dubaiapartments.biz" target="_blank"><img src="spacer.gif" width="5" height="5" border="0"/></a>
+  </div>
+
+  <!-- BUG FIX: This corrects another IE rendering bug....  You notice it only when the menu container length is
+       greater than the main content container.  Without this, when an a:hover is triggered in the main container,
+       IE reflows the page and cuts off the menu at the bottom of the main container. -->
+  <div class="spacer">
+  </div>
+
+</div>
+<!-- Layout container ends -->
+
+</body>
+</html>
